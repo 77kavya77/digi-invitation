@@ -29,6 +29,11 @@ body {
     background-color: #faf6f6;
 }
 
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -445,6 +450,12 @@ footer {
         background-size: cover;
     }
 
+    .swiper-slide {
+        max-width: 100%;
+        height: 250px; /* or adjust as needed */
+    }
+
+
 }
 
 @media (max-width: 480px) {
@@ -460,4 +471,19 @@ footer {
     .btn {
         width: 100%;
     }
+
+    .swiper-slide {
+        max-width: 100%;
+        height: 180px; /* smaller height for very small screens */
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .timeline-item {
+        padding-left: 20px;
+    }
+
 }
+
